@@ -15,6 +15,12 @@ export default {
     goHome() {
       this.$router.push('/')
     }
+  },
+  computed: {
+    
+  },
+  watch: {
+
   }
 }
 </script>

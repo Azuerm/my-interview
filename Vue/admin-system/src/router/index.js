@@ -25,7 +25,7 @@ export const constantRoutes = [
         path: 'dashboard',
         name: 'Dashboard',
         component: () => import('../views/dashboard/index.vue'),
-        meta: { title: '首页', icon: 'dashboard' }
+        meta: { title: '首页', icon: 'dashboard' }   
       }
     ]
   }
@@ -64,7 +64,7 @@ export const asyncRoutes = [
     ]
   },
   // 404页面必须放在最后
-  { path: '*', redirect: '/404', hidden: true }
+  { path: '*', redirect: '/404', hidden: true } 
 ]
 
 const createRouter = () => new VueRouter({
